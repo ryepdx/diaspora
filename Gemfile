@@ -1,13 +1,20 @@
 source 'http://rubygems.org'
 
+<<<<<<< HEAD
 gem 'bundler', '> 1.1.0'
 ruby '1.9.3' if ENV['HEROKU']
 
 gem 'rails', '3.1.4'
 gem 'rails_autolink'
+=======
+gem 'rails', '3.2.3'
+
+gem 'bundler', '~> 1.1.0'
+>>>>>>> several required fixes for the upgrade to rails 3.2: rename base64s. upgrade omniauth. add required config options to development.rb and test.rb
 gem 'foreman', '0.41'
 gem 'whenever'
 
+gem 'rails_autolink'
 gem 'thin', '~> 1.3.1',    :require => false
 
 # cross-origin resource sharing
@@ -21,7 +28,7 @@ gem 'jwt'
 gem 'oauth2-provider', '0.0.19'
 gem 'remotipart', '~> 1.0'
 
-gem 'omniauth', '1.0.1'
+gem 'omniauth', '1.0.3'
 gem 'omniauth-facebook'
 gem 'omniauth-tumblr'
 gem 'omniauth-twitter'
@@ -92,7 +99,11 @@ gem 'SystemTimer', '1.2.3', :platforms => :ruby_18
 
 # tags
 
+<<<<<<< HEAD
 gem 'acts-as-taggable-on', '~> 2.2.2'
+=======
+gem 'acts-as-taggable-on'
+>>>>>>> several required fixes for the upgrade to rails 3.2: rename base64s. upgrade omniauth. add required config options to development.rb and test.rb
 
 # URIs and HTTP
 
@@ -112,8 +123,12 @@ gem 'gon'
 # assets
 
 group :assets do
+<<<<<<< HEAD
   gem 'sass-rails', '3.1.4'
   gem 'bootstrap-sass', '~> 2.0.2'
+=======
+  gem 'sass-rails', '3.2.5'
+>>>>>>> several required fixes for the upgrade to rails 3.2: rename base64s. upgrade omniauth. add required config options to development.rb and test.rb
 
   # Windows and OSX have an execjs compatible runtime built-in, Linux users should
   # install Node.js or use 'therubyracer'.
@@ -186,8 +201,6 @@ group :development do
   gem 'parallel_tests', :require => false
   gem 'yard', :require => false
 
-  # rails 3.2 goodness
-  gem 'active_reload'
 
   # for tracing AR object instantiation and memory usage per request
   gem 'oink'
