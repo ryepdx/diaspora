@@ -29,10 +29,10 @@ GIT
 
 GIT
   remote: git://github.com/pivotal/jasmine-gem.git
-  revision: 2c2df6611ed20b9067167065cbbd82866f56f00b
+  revision: 1e075fbf5a69812fcc914c453f002ecf5bed38ab
   specs:
-    jasmine (1.2.0.rc3)
-      jasmine-core (>= 1.2.0.rc3)
+    jasmine (1.2.0)
+      jasmine-core (>= 1.2.0)
       rack (~> 1.0)
       rspec (>= 1.3.1)
       selenium-webdriver (>= 0.1.3)
@@ -81,19 +81,13 @@ GEM
     airbrake (3.0.9)
       activesupport
       builder
-<<<<<<< HEAD
-    arel (2.2.3)
-    asset_sync (0.3.1)
-=======
-    archive-tar-minitar (0.5.2)
     arel (3.0.2)
     asset_sync (0.4.1)
->>>>>>> moar updates
       activemodel
       fog
     bbenezech-nested_form (0.0.6)
     bcrypt-ruby (3.0.1)
-    bootstrap-sass (2.0.2)
+    bootstrap-sass (2.0.3)
     builder (3.0.0)
     capistrano (2.12.0)
       highline
@@ -124,7 +118,7 @@ GEM
     coffee-script (2.2.0)
       coffee-script-source
       execjs
-    coffee-script-source (1.3.1)
+    coffee-script-source (1.3.2)
     columnize (0.3.6)
     cookiejar (0.3.0)
     crack (0.3.1)
@@ -163,11 +157,7 @@ GEM
       eventmachine (>= 1.0.0.beta.1)
     erubis (2.7.0)
     eventmachine (1.0.0.beta.4)
-<<<<<<< HEAD
-    excon (0.13.2)
-=======
     excon (0.13.4)
->>>>>>> moar updates
     execjs (1.3.2)
       multi_json (~> 1.0)
     factory_girl (2.6.4)
@@ -212,23 +202,19 @@ GEM
     gon (3.0.2)
       actionpack (>= 2.3.0)
       json
-    guard (1.0.2)
+    guard (1.0.3)
       ffi (>= 0.5.0)
-      thor (~> 0.14.6)
-    guard-cucumber (0.7.5)
-      cucumber (>= 0.10)
+      thor (>= 0.14.6)
+    guard-cucumber (0.8.0)
+      cucumber (>= 1.2.0)
       guard (>= 0.8.3)
-    guard-rspec (0.7.0)
+    guard-rspec (0.7.2)
       guard (>= 0.10.0)
     guard-spork (0.8.0)
       guard (>= 0.10.0)
       spork (>= 0.8.4)
     haml (3.1.5)
-<<<<<<< HEAD
-    handlebars_assets (0.4.1)
-=======
     handlebars_assets (0.4.4)
->>>>>>> moar updates
       execjs (>= 1.2.9)
       sprockets (>= 2.0.3)
       tilt
@@ -238,13 +224,14 @@ GEM
       netrc (~> 0.7.1)
       rest-client (~> 1.6.1)
       rubyzip
-    heroku-api (0.1.3)
+    heroku-api (0.1.6)
       excon (~> 0.13.3)
-    heroku_san (2.2.2)
+    heroku_san (3.0.0)
+      activesupport
       heroku (>= 2)
       heroku-api (>= 0.1.2)
       rake
-    highline (1.6.11)
+    highline (1.6.12)
     hike (1.2.1)
     hodel_3000_compliant_logger (0.1.0)
     hpricot (0.8.6)
@@ -257,25 +244,15 @@ GEM
       actionpack (~> 3.0)
       i18n-inflector (~> 2.6)
       railties (~> 3.0)
-    jasmine-core (1.2.0.rc3)
+    jasmine-core (1.2.0)
     journey (1.0.3)
     jquery-rails (2.0.2)
       railties (>= 3.2.0, < 5.0)
       thor (~> 0.14)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> moar updates
     jquery-ui-rails (0.2.2)
       jquery-rails
       railties (>= 3.1.0)
-    json (1.7.1)
-<<<<<<< HEAD
-=======
-    json (1.6.6)
->>>>>>> several required fixes for the upgrade to rails 3.2: rename base64s. upgrade omniauth. add required config options to development.rb and test.rb
-=======
->>>>>>> moar updates
+    json (1.7.3)
     jwt (0.1.4)
       json (>= 1.2.4)
     kaminari (0.13.0)
@@ -288,13 +265,7 @@ GEM
       addressable
     linecache (0.46)
       rbx-require-relative (> 0.0.4)
-<<<<<<< HEAD
-    mail (2.3.3)
-=======
-    linecache19 (0.5.12)
-      ruby_core_source (>= 0.1.4)
     mail (2.4.4)
->>>>>>> moar updates
       i18n (>= 0.4.0)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
@@ -386,35 +357,20 @@ GEM
       railties (= 3.2.3)
     rails-i18n (0.6.3)
       i18n (~> 0.5)
-<<<<<<< HEAD
-<<<<<<< HEAD
     rails_admin (0.0.2)
-=======
-    rails_admin (0.0.1)
->>>>>>> moar updates
       bbenezech-nested_form (~> 0.0.6)
       bootstrap-sass (~> 2.0)
       builder (~> 3.0)
       coffee-rails (~> 3.1)
       haml (~> 3.1)
-<<<<<<< HEAD
       jquery-rails (>= 1.0.17)
-=======
-      jquery-rails (>= 1.0)
->>>>>>> moar updates
       jquery-ui-rails (~> 0.2.2)
       kaminari (~> 0.12)
       rack-pjax (~> 0.5)
       rails (~> 3.1)
       remotipart (~> 1.0)
       sass-rails (~> 3.1)
-<<<<<<< HEAD
-=======
->>>>>>> several required fixes for the upgrade to rails 3.2: rename base64s. upgrade omniauth. add required config options to development.rb and test.rb
-    rails_autolink (1.0.6)
-=======
     rails_autolink (1.0.7)
->>>>>>> moar updates
       rails (~> 3.1)
     railties (3.2.3)
       actionpack (= 3.2.3)
@@ -423,7 +379,7 @@ GEM
       rake (>= 0.8.7)
       rdoc (~> 3.4)
       thor (~> 0.14.6)
-    raindrops (0.8.0)
+    raindrops (0.8.1)
     rake (0.9.2.2)
     rbx-require-relative (0.0.9)
     rdoc (3.12)
@@ -467,49 +423,25 @@ GEM
     ruby-hmac (0.4.0)
     ruby-oembed (0.8.7)
     ruby-progressbar (0.0.10)
-<<<<<<< HEAD
     rubyzip (0.9.8)
-    sass (3.1.17)
-=======
-    ruby_core_source (0.1.5)
-      archive-tar-minitar (>= 0.5.2)
-<<<<<<< HEAD
-    rubyzip (0.9.6.1)
-    sass (3.1.15)
->>>>>>> several required fixes for the upgrade to rails 3.2: rename base64s. upgrade omniauth. add required config options to development.rb and test.rb
-    sass-rails (3.1.4)
-      actionpack (~> 3.1.0)
-      railties (~> 3.1.0)
-      sass (>= 3.1.4)
-      sprockets (~> 2.0.0)
-      tilt (~> 1.3.2)
-    selenium-webdriver (2.19.0)
-=======
-    rubyzip (0.9.8)
-    sass (3.1.17)
+    sass (3.1.18)
     sass-rails (3.2.5)
       railties (~> 3.2.0)
       sass (>= 3.1.10)
       tilt (~> 1.3)
     selenium-webdriver (2.22.0.rc1)
->>>>>>> moar updates
       childprocess (>= 0.2.5)
       ffi (~> 1.0)
       libwebsocket (~> 0.1.3)
       multi_json (~> 1.0)
       rubyzip
-    simple_oauth (0.1.7)
+    simple_oauth (0.1.8)
     sinatra (1.3.2)
       rack (~> 1.3, >= 1.3.6)
       rack-protection (~> 1.2)
       tilt (~> 1.3, >= 1.3.3)
-<<<<<<< HEAD
     spork (1.0.0rc2)
-    sprockets (2.0.4)
-=======
-    spork (1.0.0rc3)
     sprockets (2.1.3)
->>>>>>> moar updates
       hike (~> 1.2)
       rack (~> 1.0)
       tilt (~> 1.1, != 1.3.0)
@@ -542,7 +474,7 @@ GEM
       raindrops (~> 0.7)
     vegas (0.1.11)
       rack (>= 1.0.0)
-    warden (1.1.1)
+    warden (1.2.0)
       rack (>= 1.0)
     webmock (1.6.2)
       addressable (>= 2.2.2)
@@ -566,23 +498,10 @@ DEPENDENCIES
   addressable (= 2.2.4)
   airbrake
   asset_sync
-<<<<<<< HEAD
-<<<<<<< HEAD
   bootstrap-sass (~> 2.0.2)
   bundler (> 1.1.0)
   capistrano
   capistrano-ext
-=======
-  bundler (~> 1.1.0)
-  capistrano (~> 2.9.0)
-  capistrano-ext (= 1.2.1)
->>>>>>> several required fixes for the upgrade to rails 3.2: rename base64s. upgrade omniauth. add required config options to development.rb and test.rb
-=======
-  bootstrap-sass (~> 2.0.2)
-  bundler (~> 1.1.0)
-  capistrano
-  capistrano-ext
->>>>>>> moar updates
   capistrano_colors
   capybara (~> 1.1.2)
   carrierwave (= 0.5.8)
@@ -640,14 +559,7 @@ DEPENDENCIES
   rack-ssl
   rails (= 3.2.3)
   rails-i18n
-<<<<<<< HEAD
-<<<<<<< HEAD
   rails_admin (~> 0.0.2)
-=======
->>>>>>> several required fixes for the upgrade to rails 3.2: rename base64s. upgrade omniauth. add required config options to development.rb and test.rb
-=======
-  rails_admin
->>>>>>> moar updates
   rails_autolink
   redcarpet (= 2.0.1)
   remotipart (~> 1.0)

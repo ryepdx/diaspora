@@ -1,16 +1,10 @@
 source 'http://rubygems.org'
 
-<<<<<<< HEAD
 gem 'bundler', '> 1.1.0'
 ruby '1.9.3' if ENV['HEROKU']
 
-gem 'rails', '3.1.4'
-gem 'rails_autolink'
-=======
 gem 'rails', '3.2.3'
 
-gem 'bundler', '~> 1.1.0'
->>>>>>> several required fixes for the upgrade to rails 3.2: rename base64s. upgrade omniauth. add required config options to development.rb and test.rb
 gem 'foreman', '0.41'
 gem 'whenever'
 

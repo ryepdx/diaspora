@@ -9,7 +9,7 @@ class Notification < ActiveRecord::Base
   belongs_to :target, :polymorphic => true
 
   attr_accessor :note_html
-  
+ 
   def self.for(recipient, opts={})
     self.where(opts.merge!(:recipient_id => recipient.id)).order('updated_at desc')
   end
@@ -33,6 +33,10 @@ class Notification < ActiveRecord::Base
         end
        end
     end
+  end
+
+  def as_json(opts={})
+    super(opts.merge(:methods => :note_html))
   end
 
   def email_the_user(target, actor)
