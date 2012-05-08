@@ -99,11 +99,7 @@ gem 'SystemTimer', '1.2.3', :platforms => :ruby_18
 
 # tags
 
-<<<<<<< HEAD
 gem 'acts-as-taggable-on', '~> 2.2.2'
-=======
-gem 'acts-as-taggable-on'
->>>>>>> several required fixes for the upgrade to rails 3.2: rename base64s. upgrade omniauth. add required config options to development.rb and test.rb
 
 # URIs and HTTP
 
@@ -123,12 +119,8 @@ gem 'gon'
 # assets
 
 group :assets do
-<<<<<<< HEAD
-  gem 'sass-rails', '3.1.4'
   gem 'bootstrap-sass', '~> 2.0.2'
-=======
   gem 'sass-rails', '3.2.5'
->>>>>>> several required fixes for the upgrade to rails 3.2: rename base64s. upgrade omniauth. add required config options to development.rb and test.rb
 
   # Windows and OSX have an execjs compatible runtime built-in, Linux users should
   # install Node.js or use 'therubyracer'.
